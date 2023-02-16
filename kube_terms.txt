@@ -1,0 +1,196 @@
+KIND                                         DESC
+
+Alertmanager
+AlertmanagerConfig
+APIRequestCount
+APIServer                                    -> kube-api-server
+APIService                 
+AppliedClusterResourceQuota
+Authentication
+BareMetalHost
+Binding
+BMCEventSubscription
+BrokerTemplateInstance
+Build
+BuildConfig
+CatalogSource
+CertificateSigningRequest
+CloudCredential
+ClusterAutoscaler
+ClusterCSIDriver
+ClusterNetwork
+ClusterOperator
+ClusterResourceQuota
+ClusterRole
+ClusterRoleBinding
+ClusterServiceVersion
+ClusterVersion
+ComponentStatus
+Config                                        
+ConfigMap                                    -> Used to store non-confidential data in key-value pairs
+Console
+ConsoleCLIDownload
+ConsoleExternalLogLink
+ConsoleLink
+ConsoleNotification
+ConsolePlugin
+ConsoleQuickStart
+ConsoleYAMLSample
+ContainerRuntimeConfig
+ControllerConfig
+ControllerRevision
+ControlPlaneMachineSet
+CredentialsRequest
+CronJob                                      -> Manages a Job that runs on a periodic schedule
+CSI                                          -> (Container Storage Interface) defines standard interface to expose storage systems to containers
+CSIDriver
+CSINode
+CSISnapshotController
+CSIStorageCapacity
+CustomResourceDefinition                     -> Custon code that defines a resource to add to your Kubernetes 
+DaemonSet                                    -> Ensure a copy of a Pod is running across a set of nodes in a cluster
+Deployment                                   -> Manages a replicated application, typically by running Pods with no local state
+DeploymentConfig                              
+DNS                                          -> Name record for services and pods, default is Pod's namespace and clusters default domain
+DNSRecord 
+EgressNetworkPolicy
+EgressRouter
+Endpoints                                    -> Track the IP address of Pods with matching selectors
+EndpointSlice                                -> A way to group network endpoint together with Kubernetes resources
+Etcd                                         -> Save data for the entire cluster (key-value store)
+Event                                        -> State change in the system
+FeatureGate                                  -> Set of keys that can be used to control which cluster features are active
+FirmwareSchema
+FlowSchema
+Group
+HardwareData
+HelmChart                                    -> A package of pre-configured Kubernetes resource that can be managed with the Helm tool
+HelmChartRepository
+HorizontalPodAutoscaler                      -> (HPA) Automatically scales a number Pod replicas based on targeted CPU utilization or custom metric targets
+HostFirmwareSettings
+HostSubnet
+Identity
+Image                                        -> Stored instance of a Container that holds a set of software need to run an application
+ImageContentPolicy
+ImageContentSourcePolicy
+ImagePruner
+ImageSignature
+ImageStream
+ImageStreamImage
+ImageStreamImport
+ImageStreamMapping
+ImageStreamTag
+ImageTag
+Infrastructure
+Ingress                                      -> Manages external acess to the services in a cluster, typically HTTP
+IngressClass
+IngressController                            -> An IngressController must be running on the cluster for Ingress to work
+InsightsOperator
+InstallPlan
+IPPool
+Job                                          -> A finite or batch task that runs to completion
+KubeAPIServer
+KubeControllerManager                        -> Control plane component that runs controller processes
+KubeletConfig
+KubeScheduler                                -> Control plane component that watches for newly created Pods with no assigned node, and selects a node for them to run on 
+KubeStorageVersionMigrator
+Lease
+LimitRange                                   -> Constraints to limit resource consumption per Containers or Pods in a namespace
+LocalResourceAccessReview
+LocalSubjectAccessReview
+Machine
+MachineAutoscaler
+MachineConfig
+MachineConfigPool
+MachineHealthCheck
+MachineSet
+MutatingWebhookConfiguration
+Namespace                                    -> Isolation of groups of resources within a single Cluster
+NetNamespace
+Network
+NetworkAttachmentDefinition
+NetworkPolicy                                -> Specification of how groups of Pods are allowed to communicate with eah other and other network endpoints
+Node                                         -> A worker machine 
+NodeMetrics
+OAuth
+OAuthAccessToken
+OAuthAuthorizeToken
+OAuthClient
+OAuthClientAuthorization
+OLMConfig
+OpenShiftAPIServer
+OpenShiftControllerManager
+Operator
+OperatorCondition
+OperatorGroup
+OperatorHub
+OperatorPKI
+OverlappingRangeIPReservation
+PackageManifest
+PerformanceProfile
+PersistentVolume                             -> Represents a piece of storage in the cluster, persists beyond the lifecycle of any Pod
+PersistentVolumeClaim                        -> Claims storage resources defined in a PersistentVolume so that it can be mounted as a vol in a container
+Pod                                          -> Smallest and simplest object. A Pod represents a set of running containers on your cluster
+PodDisruption                                -> Process by which Pods on Nodes are terminated either voluntarily or involuntarily
+PodDisruptionBudget                          -> Ensures a number of Pods with an assigned label will not be volunarily evicted at any point in time
+PodMetrics
+PodMonitor
+PodNetworkConnectivityCheck
+PodSecurityPolicy                            -> Enables fine grained authorization of Pod creation and updates
+PodSecurityPolicySelfSubjectReview
+PodSecurityPolicySubjectReview
+PodTemplate
+PreprovisioningImage
+PriorityClass
+PriorityLevelConfiguration
+Probe
+Profile
+Project
+ProjectHelmChartRepository
+ProjectRequest
+Prometheus
+PrometheusRule
+Provisioning
+Proxy
+RangeAllocation
+ReplicaSet                                   -> Maintains a set of replica Pods running at any given time
+ReplicationController                        -> Workload resource that manages a replcated application
+ResourceAccessReview
+ResourceQuota                                -> Provides constraints that limit aggregate resource consumption per Namespace
+Role 
+RoleBinding
+RoleBindingRestriction
+Route                                        -> 
+RuntimeClass
+Scheduler                                    -> Feature for selecting container runtime configuration 
+Secret                                       -> Object that contains sensitive data
+SecurityContextConstraints
+SelfSubjectAccessReview
+SelfSubjectRulesReview
+Service                                      -> Abstract way to expose an application running on a set of Pods as a network service
+ServiceAccount                               -> Provides an identity for processes running in a Pod
+ServiceCA
+ServiceMonitor
+StatefulSet                                  -> Manages the deployment of stateful applications
+StaticPod                                    -> A Pod managed directly by the kubelet daemon on a specific node
+Storage
+StorageClass                                 -> Provides a way fo radmins to describe different available storage types
+StorageState
+StorageVersionMigration
+SubjectAccessReview
+SubjectRulesReview
+Subscription
+Template
+TemplateInstance
+ThanosRuler
+TokenReview
+Tuned
+User
+UserIdentityMapping
+UserOAuthAccessToken
+ValidatingWebhookConfiguration
+Volume                                       -> A directory containing data, accessable to the containers in a Pod
+VolumeAttachment
+VolumeSnapshot
+VolumeSnapshotClass
+VolumeSnapshotContent
